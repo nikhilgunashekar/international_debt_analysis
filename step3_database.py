@@ -1,36 +1,3 @@
-"""
-=============================================================
-  STEP 3 — DATABASE DESIGN & DATA INSERTION
-=============================================================
-  What this script does:
-  1. Connects to MySQL database
-  2. Creates 3 relational tables (Countries, Indicators, DebtData)
-  3. Inserts cleaned data from CSV into MySQL
-  4. Verifies data was inserted correctly
-
-  For beginners:
-  - A relational database stores data in linked tables (like Excel sheets
-    that reference each other)
-  - Primary Key (PK): Unique ID for each row in a table
-  - Foreign Key (FK): A column that links to another table's PK
-  - This avoids storing "China" as text 400 times — we store ID=1 once
-
-  ⚙️  BEFORE RUNNING:
-  1. Install MySQL: https://dev.mysql.com/downloads/installer/
-  2. Install Python library: pip install mysql-connector-python
-  3. Update DB_CONFIG below with your MySQL username and password
-
-  DATABASE SCHEMA:
-  ┌─────────────┐     ┌───────────────┐     ┌─────────────┐
-  │  countries  │     │   debt_data   │     │ indicators  │
-  │─────────────│     │───────────────│     │─────────────│
-  │ country_id  │◄────│ country_id(FK)│ ────►│indicator_id │
-  │ country_name│     │indicator_id(FK│     │indicator_name│
-  │ country_code│     │ debt          │     │indicator_code│
-  └─────────────┘     └───────────────┘     └─────────────┘
-=============================================================
-"""
-
 # ── Imports ──────────────────────────────────────────────────
 import pandas as pd
 import mysql.connector         # To connect to MySQL
@@ -280,6 +247,3 @@ print(f"""
    Database : debt_db
    Tables   : countries, indicators, debt_data
    
-🎉 Step 3 Complete! Now run step4_sql_queries.py
-   Or open MySQL Workbench to see the data visually.
-""")
