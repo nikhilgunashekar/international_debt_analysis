@@ -1,23 +1,3 @@
-"""
-=============================================================
-  STEP 1 — DATA LOADING & CLEANING
-=============================================================
-  What this script does:
-  1. Loads the raw CSV file into a Pandas DataFrame
-  2. Inspects the data (shape, types, missing values)
-  3. Removes duplicates
-  4. Handles missing (null) values
-  5. Cleans column names
-  6. Converts data types
-  7. Saves the cleaned data to a new CSV file
-
-  For beginners:
-  - A DataFrame is like an Excel table in Python
-  - Run this script FIRST before any other step
-  - Output: cleaned_debt.csv (used by all other scripts)
-=============================================================
-"""
-
 # ── Imports ──────────────────────────────────────────────────
 import pandas as pd   # For working with tables (DataFrames)
 import numpy as np    # For math operations
