@@ -1,20 +1,3 @@
-"""
-=============================================================
-  STEP 4 — RUN ALL 30 SQL QUERIES FROM PYTHON
-=============================================================
-  What this script does:
-  - Connects to MySQL (debt_db)
-  - Runs all 30 analytical queries
-  - Prints results in a clean, readable table format
-  - Saves results to outputs/query_results.txt
-
-  For beginners:
-  - This is an ALTERNATIVE to running queries in MySQL Workbench
-  - You can use either this script OR MySQL Workbench — both work
-  - pandas.read_sql_query() runs a SQL query and returns a DataFrame
-=============================================================
-"""
-
 import pandas as pd
 import mysql.connector
 import os
