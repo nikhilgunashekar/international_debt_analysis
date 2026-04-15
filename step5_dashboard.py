@@ -1,24 +1,3 @@
-"""
-=============================================================
-  STEP 5 — INTERACTIVE STREAMLIT DASHBOARD
-=============================================================
-  What this script does:
-  - Creates a complete web dashboard in your browser
-  - Shows KPI metrics, interactive charts, and data tables
-  - Allows filtering by country and debt category
-
-  For beginners:
-  - Streamlit turns Python code into a live web app instantly
-  - Every time you change a filter, the page auto-updates
-  - No HTML/CSS/JavaScript needed!
-
-  HOW TO RUN:
-    streamlit run step5_dashboard.py
-
-  This opens a browser tab at: http://localhost:8501
-=============================================================
-"""
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
