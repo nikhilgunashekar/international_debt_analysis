@@ -1,23 +1,3 @@
-"""
-=============================================================
-  STEP 2 — EXPLORATORY DATA ANALYSIS (EDA)
-=============================================================
-  What this script does:
-  1. Loads the cleaned data from Step 1
-  2. Analyzes country-wise debt
-  3. Analyzes indicator-wise debt
-  4. Finds top and bottom countries
-  5. Creates and saves 6 charts (PNG files)
-
-  For beginners:
-  - EDA means "exploring" the data to understand it
-  - We ask questions like: Who owes the most? Which debt type is biggest?
-  - Charts help us see patterns that numbers alone don't show
-  - Output: 6 chart images saved in charts/ folder
-=============================================================
-"""
-
-# ── Imports ──────────────────────────────────────────────────
 import pandas as pd
 import matplotlib.pyplot as plt   # Base plotting library
 import seaborn as sns             # Pretty charts built on matplotlib
