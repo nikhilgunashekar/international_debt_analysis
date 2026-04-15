@@ -338,7 +338,3 @@ print(f"""
    5. Countries above avg debt    : {len(above_avg)} out of {num_countries}
    6. Countries with >5% global   : {len(above_5pct)}
    7. Charts saved                : {CHARTS_DIR}
-
-📁 6 chart files saved in the charts/ folder.
-🎉 Step 2 Complete! Now run step3_database.py
-""")
